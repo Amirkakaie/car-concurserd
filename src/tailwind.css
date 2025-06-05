@@ -5,6 +5,7 @@
     --font-Alatsi :  "Alatsi", sans-serif;
 
     --color-blue : #4CD7F6;
+    --color-bg-aside : #E2E2E5;
     --color-purple : #7166F9;
     --color-pink : #E17CFD;
     --color-dark-main : #2B2F42;
@@ -13,3 +14,12 @@
     --color-dark-card : #484848;
 }
 
+
+@layer components{
+    .flex-ul{
+        @apply flex gap-3 text-sm items-center relative after:duration-300 hover:after:w-1 font-medium after:content-[''] after:w-0 after:h-10 after:bg-purple/50 after:rounded-bl-lg after:rounded-tl-lg after:absolute after:right-0 transition-all
+    }
+    .size-img{
+        @apply w-5
+    }
+}
