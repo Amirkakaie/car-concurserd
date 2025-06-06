@@ -22,4 +22,7 @@
     .size-img{
         @apply w-5
     }
+    .navOptions{
+        @apply font-normal bg-bg px-5 py-3 rounded-3xl hover:bg-purple transform transition-all hover:duration-300
+    }
 }
