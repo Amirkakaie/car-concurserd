@@ -17,12 +17,15 @@
 
 @layer components{
     .flex-ul{
-        @apply flex gap-3 text-sm items-center relative after:duration-300 hover:after:w-1 font-medium after:content-[''] after:w-0 after:h-10 after:bg-purple/50 after:rounded-bl-lg after:rounded-tl-lg after:absolute after:right-0 transition-all
+        @apply flex gap-3 text-sm items-center relative after:duration-300 hover:after:w-1 font-medium after:content-[''] after:w-0 after:h-10 after:bg-purple/50 after:rounded-bl-lg after:rounded-tl-lg after:absolute after:right-0 transition-all;
     }
     .size-img{
-        @apply w-5
+        @apply w-5;
     }
     .navOptions{
-        @apply font-normal bg-bg px-5 py-3 rounded-3xl hover:bg-purple transform transition-all hover:duration-300
+        @apply font-normal bg-bg px-5 py-3 rounded-3xl hover:bg-purple transform transition-all hover:duration-300;
+    }
+    .boxs{
+        @apply bg-bg w-full h-full group hover:transition-colors hover:duration-500 duration-500 rounded-2xl hover:bg-linear-150/shorter hover:from-[#E17CFD] hover:via-[#4CD7F6] hover:to-[#E17CFD];
     }
 }
